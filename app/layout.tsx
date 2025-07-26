@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "DARK THE EDITOR",
   description:
     "your next project is on me, a video editor with smooth hands turning your ideas into a visual art",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
