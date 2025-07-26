@@ -1,0 +1,42 @@
+.about {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  .textArea {
+    h3,
+    h2 {
+      color: #fff;
+      padding: 10px 0px;
+    }
+    .approach {
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      gap: 5px;
+
+      span {
+        display: flex;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 30px;
+        padding: 0;
+
+        svg {
+          margin: 0px 5px;
+        }
+      }
+    }
+  }
+
+  .img {
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+}

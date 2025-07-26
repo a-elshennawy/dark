@@ -1,0 +1,68 @@
+.hero {
+  position: relative;
+  background-color: #000;
+  text-align: center;
+  height: 100vh;
+
+  .textArea {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 11;
+    padding: 20px 0px;
+    max-width: 90vw;
+    text-align: center;
+    color: #fff;
+
+    h1 {
+      width: fit-content;
+      margin: auto;
+      font-size: 9.375rem;
+      font-family: "Anton" !important;
+      letter-spacing: 10px;
+      animation: Glow 1.5s infinite;
+    }
+
+    h3 {
+      width: fit-content;
+      margin: auto;
+      letter-spacing: 2px;
+    }
+
+    .tools {
+      padding: 20px 0px;
+
+      span {
+        margin: 0px 10px;
+        font-size: 40px;
+      }
+
+      .PS {
+        color: #9131ff;
+      }
+
+      .AE {
+        color: #6e65e4;
+      }
+
+      .PR {
+        color: #40024e;
+      }
+    }
+  }
+}
+
+@keyframes Glow {
+  0% {
+    filter: drop-shadow(0 0 0px #fff);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 5px #fff);
+  }
+
+  100% {
+    filter: drop-shadow(0 0 0px #fff);
+  }
+}
